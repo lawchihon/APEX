@@ -6,11 +6,11 @@
 const CIPHER_METHOD = 'AES-256-CBC';
 
 function key_encrypt($string, $key, $cipher_method=CIPHER_METHOD) {
-  return "D4RK SH4D0W RUL3Z";
+  return openssl_encrypt($string, $cipher_method, $key);
 }
 
 function key_decrypt($string, $key, $cipher_method=CIPHER_METHOD) {
-  return "PWNED YOU!";
+  return openssl_decrypt($string, $cipher_method, $key);
 }
 
 
