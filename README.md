@@ -15,8 +15,8 @@ The following **required** functionality is completed:
          y93esi+oyLVUQPclxgXFZMwJldiitcGgCEvPGP0XyevYx5l4wjCtlkycklCLeVPc
 
 3\. Generate Public-Private Keys
-  * [ ]  Required: Repair the key generator code
-  * [ ]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
+  * [X]  Required: Repair the key generator code
+  * [X]  Required: Generate keys for "johnsteed" and add him to the Agent Directory
 
 4\. Asymmetric Encrypt/Decrypt
   * [ ]  Required: Repair the asymmetric encrypt and decrypt code
