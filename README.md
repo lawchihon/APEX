@@ -12,7 +12,7 @@ The following **required** functionality is completed:
 2\. Encrypted Message 1
   * [X]  Required: Decrypt the government message
   * [X]  Required: Encrypt a response and include in this README
-         y93esi+oyLVUQPclxgXFZMwJldiitcGgCEvPGP0XyevYx5l4wjCtlkycklCLeVPc
+         boMkBg2asngIfMZAcfL+WWuBYA9FmHFI3H+Uydp5L0R1IW5Amv9qEYdCS+nfrtl7
 
 3\. Generate Public-Private Keys
   * [X]  Required: Repair the key generator code
@@ -37,8 +37,8 @@ The following **required** functionality is completed:
   * [X]  Required: Your messages are automatically decrypted
 
 8\. Identify the Double Agent
-  * [ ]  Required: Decrypt as many email messages as possible
-  * [ ]  Required: Identify the double agent: ____________________
+  * [X]  Required: Decrypt as many email messages as possible
+  * [X]  Required: Identify the double agent: Natasha
 
 The following objectives are **optional**:
 

@@ -44,7 +44,7 @@
     
     <a href="index.php">Main menu</a>
     <br/>
-  
+    <?php echo $encode_algorithm; ?>
     <h1>Symmetric Encryption</h1>
 
     <div id="encoder">
@@ -56,14 +56,14 @@
           <select name="encode_algorithm">
             <?php 
               foreach ($cipher_methods as $cipher_method) {
-                echo "<option value=\"" . h($cipher_method) . "\">" . h($cipher_method) . "</option>";
+                echo "<option value=\"" . $cipher_method . "\">" . h($cipher_method) . "</option>";
               }
             ?>
           </select>
         </div>
         <div>
           <label for="plain_text">Plain text</label>
-          <textarea name="plain_text"><?php echo h($plain_text); ?></textarea>
+          <textarea name="plain_text"><?php echo $plain_text; ?></textarea>
         </div>
         <div>
           <label for="encode_key">Key</label>
@@ -89,7 +89,7 @@
           <select name="decode_algorithm">
             <?php 
               foreach ($cipher_methods as $cipher_method) {
-                echo "<option value=\"" . h($cipher_method) . "\">" . h($cipher_method) . "</option>";
+                echo "<option value=\"" . $cipher_method . "\">" . h($cipher_method) . "</option>";
               }
             ?>
           </select>
