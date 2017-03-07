@@ -25,16 +25,16 @@ The following **required** functionality is completed:
   * [X]  Required: Repair the create and verify signature code
   
 6\. Encrypted Message 2
-  * [ ]  Required: Decrypt the message
+  * [X]  Required: Decrypt the message
   * [ ]  Required: Verify the message
   * [ ]  Required: Include a response message in this README
 
 7\. Agent Messages
-  * [ ]  Required: Repair the dropbox code
-  * [ ]  Required: Repair the messages area
-  * [ ]  Required: Display encrypted messages for all agents
-  * [ ]  Required: Messages indicate whether the message signature is valid
-  * [ ]  Required: Your messages are automatically decrypted
+  * [X]  Required: Repair the dropbox code
+  * [X]  Required: Repair the messages area
+  * [X]  Required: Display encrypted messages for all agents
+  * [X]  Required: Messages indicate whether the message signature is valid
+  * [X]  Required: Your messages are automatically decrypted
 
 8\. Identify the Double Agent
   * [ ]  Required: Decrypt as many email messages as possible
