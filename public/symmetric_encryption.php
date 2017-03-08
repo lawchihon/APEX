@@ -44,7 +44,7 @@
     
     <a href="index.php">Main menu</a>
     <br/>
-    <?php echo $encode_algorithm; ?>
+
     <h1>Symmetric Encryption</h1>
 
     <div id="encoder">
